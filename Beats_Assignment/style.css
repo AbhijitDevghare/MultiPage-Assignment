@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+body
+{
+    margin: 0 15vw;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: normal ;
+    justify-content: space-between;
+    
+}
+
+nav img[alt="beatsLogo"]
+{
+   margin: 30px 0px;
+
+}
+
+nav ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 20px 0px;
+
+}
+
+
+nav ul li
+{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 900px;
+    margin: 10px 0px;
+    cursor: pointer;
+
+}
+
+#right-navigationSection
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+#shopButton
+{
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -1px -1px 3px  white;
+    cursor: pointer;
+    background: #1e1e21;
+
+}
+
+
+/* Main Section */
+
+#main-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
+#main-section img[alt="onear"]
+{
+    width: 30vw;
+    margin-left: 50px;
+}
+
+.box-section
+{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+
+
+.box-section h1
+{
+    font-size: 50px;
+}
+
+
+#OverviewHead
+{
+    font-size: 30px;
+}
+
+
+#main-section img[alt="mainImage"]
+{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 65px;
+}
+
+    
+
+#Beats3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-box
+{
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: -1px -1px 3px white;
+    background: #1e1e21;
+}
+
+.small-box>*
+{
+    background: #1e1e21;
+}
+
+
+#companyLogo
+{
+    margin: 50px 0px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+     gap: 100px;
+}
+
+#items
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+    gap: 100px;
+}
+.item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+}
+
+#specs
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+#specsInfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.specs-features
+{
+    margin: 10px 0px;
+}
+
+.specsInfo-Specification1{
+    margin-left: 20px;
+}
+
+
+.specsInfo-Specification2{
+    
+    margin: 30px 0px;
+}
+
+
+#caseInfo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+#buyNowSection
+{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    border: 1px solid rgb(46, 45, 45);
+    border-radius: 10px;
+    margin: 50px 0px;
+    background: #1e1e21;
+    
+    gap: 50px;
+}
+
+#buyNowSection>*
+{
+    background: #1e1e21;
+}
+
+
+#buyNowSection-box
+{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+#buyNowSection-box>*
+{
+    background: #1e1e21;
+}
+
+
+#buyNowSection-box h4
+{
+    font-size: 20px;
+    font-weight: 800;
+ 
+}
+
+
+#buyNowSection-small-box
+{
+    padding: 5px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: -1px -1px 3px white;
+    background: #1e1e21;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+   gap: 5px;
+}
+
+#buyNowSection-small-box>*
+{
+    background: #1e1e21;
+}
+
+#buyNowSection img[alt="buyNowSectionImage"]
+{
+    background: #1e1e21;
+}
+
+
+
+#choose-Style
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 120px;
+    row-gap: 0px;
+    
+}
+
+.choose-Style-headphone-box
+{
+    
+    width: 16vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(9, 5, 5);
+    border-radius: 20px;
+    margin: 70px 0px 80px 0px;
+    background: #1e1e21;
+    
+}
+
+.choose-Style-headphone-box>*
+{
+    background: #1e1e21;
+}
+
+.choose-Style-small-box
+{
+    padding: 0px 10px 20px 10px;
+    width: 16vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 800;
+}
+
+.choose-Style-small-box>p
+{
+    background: #1e1e21;
+}
+
+.choose-Style-small-box img[alt="shoppingBag"]
+{
+    background-color: #0f0f10;
+    padding: 6px;
+}
+
+img[alt="headphone"]
+{
+    width: 10vw;
+    position: relative;
+    top: -60px;
+    background-color: transparent;
+    
+}
+
+
+#footer-section
+{
+    display: flex;
+    align-items:flex-start ;
+    justify-content: space-evenly;
+    margin: 100px;
+    gap: 150px;
+}
+
+
+.footer-info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-info div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3px;
+}
+
+
+.social-email-subscribe{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.email-subscribe-box
+{
+    height: 50px;
+    width: 400px;
+    padding: 10px 5px;
+    background-color:  #1e1e21;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.email-subscribe-box input
+{
+   outline: none;
+    background-color: transparent;
+    border: none;
+    
+} 
+
+.subscribe
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+     padding: 5px;
+    border: 1px solid black;
+    background-color:  black;
+}
+
+.subscribe>*
+{
+    background-color:  black;
+    border: none
+}
+
+
+.social
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
